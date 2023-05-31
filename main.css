@@ -20,7 +20,7 @@ body {
     font-family: 'Spline Sans Mono', monospace;
     display: flex;
     font-size: 120px;
-    transition: all 800ms cubic-bezier(0.2, 0, 0, 0.8);
+    transition: all 400ms cubic-bezier(0.2, 0, 0, 0.8);
     text-shadow: 2px 1px 10px white;
 }
 
