@@ -1,6 +1,13 @@
 /* imports */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Spline+Sans+Mono:wght@700&display=swap');
+body {
+    color: white;
+    font-size: 20px;
+    background-color: #0e0f10;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 * {
     margin: 0;
@@ -8,51 +15,18 @@
 }
 
 
-body {
-    color: white;
-    font-size: 20px;
-    background-color: #0e0f10;
+
+.mainWord {
     font-family: 'Spline Sans Mono', monospace;
+    display: flex;
+    font-size: 120px;
+    transition: all 800ms cubic-bezier(0.2, 0, 0, 0.8);
+    text-shadow: 2px 1px 10px white;
 }
 
-
-.uj {
-    background: linear-gradient(132deg, #ec5218, #1665c1);
-    background-size: 400% 400%;
-    animation: BackgroundGradient 30s ease infinite;
-}
-
-@keyframes BackgroundGradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-
-/* wight */
-
-.hi1 {
-    width: 200px;
-}
-
-.hi2 {
-    width: 250px;
-}
-
-.hi3 {
-    width: 525px;
-}
-
-.hi4 {
-    width: 325px;
+.mainWord:hover {
+    color: #00FFFF;
+    text-shadow: 3px 5px 15px #00FFFF;
 }
 
 
@@ -68,7 +42,6 @@ body {
 }
 
 
-
 /* container */
 
 .container {
@@ -80,54 +53,9 @@ body {
 /* Head name  */
 
 .Head {
-    padding-top: 75px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
-}
-
-.HeadName1 {
-    font-family: 'Spline Sans Mono', monospace;
-    display: flex;
-    font-size: 7vw;
-    color: transparent;
-    font-weight: bold;
-}
-
-.HeadName1 span {
-    animation: animate 3s linear infinite;
-    animation-delay: calc(0.1s*var(--i));
-}
-
-@keyframes animate {
-    0% {
-        color: #fff;
-        text-shadow: 0 0 10px #00b3ff,
-            0 0 20px #00b3ff,
-            0 0 40px #00b3ff,
-            0 0 80px #00b3ff,
-            0 0 120px #00b3ff,
-            0 0 200px #00b3ff,
-            0 0 300px #00b3ff;
-    }
-
-    30%,
-    70% {
-        color: #fff;
-        filter: blur(2px) hue-rotate(360deg);
-        text-shadow: 0 0 10px #00b3ff,
-            0 0 20px #00b3ff,
-            0 0 40px #00b3ff,
-            0 0 80px #00b3ff,
-            0 0 120px #00b3ff,
-            0 0 200px #00b3ff,
-            0 0 300px #00b3ff;
-    }
-
-    100% {
-        color: transparent;
-        box-shadow: none;
-        filter: blur(2px) hue-rotate(0deg);
-    }
 }
 
 /* wrapper */
@@ -212,10 +140,6 @@ li {
 .dede {
     margin-bottom: 30px;
 }
-
-/* .y1y {
-    display: none;
-} */
 
 .divpo {
     margin-top: 10px;
@@ -357,12 +281,16 @@ ul {
 }
 
 
-/*  */
+/* Boostrap */
 
 
 @media screen and (max-width: 1200px) {
     .container {
         width: 960px;
+    }
+
+    .mainWord {
+        font-size: 100px;
     }
 }
 
@@ -391,6 +319,10 @@ ul {
 @media screen and (max-width: 768px) {
     .container {
         width: 540px;
+    }
+
+    .mainWord {
+        font-size: 90px;
     }
 
     .wrapper {
@@ -474,5 +406,8 @@ ul {
     .TextOfer {
         font-size: auto;
     }
-}
 
+    .mainWord {
+        font-size: 20vw;
+    }
+}
