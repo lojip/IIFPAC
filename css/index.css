@@ -66,7 +66,7 @@ header{
 .TextOfer{
     background-color: #0e0f10;
     width: 500px;
-    height: 300px;
+    height: 305px;
     box-shadow: 0px 0px 50px 3px white;
     transition: all 300ms cubic-bezier(0.2, 0, 0, 0.8);
 }
@@ -219,3 +219,73 @@ footer{
     margin-bottom: 30px;
 }
 
+
+
+/*адаптер на другие устройства
+1200px-993px*/
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+}
+
+/*адаптер на другие устройства
+992px-769px*/
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .TextOfer{
+        width: 400px;
+    }
+    .TextInTextOfer{
+        padding:15px;
+        font-size: 35px;
+    }
+}
+/*адаптер на другие устройства
+768px-577px*/
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .Wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .TextOfer{
+        width: 350px;
+    }
+    .TextInTextOfer{
+        padding:15px;
+        font-size: 30px;
+    }
+    .logo{
+        margin-top: 90px;
+        width: 300px;
+    }
+    .MainWord{
+        font-size: 120px;
+    }
+}
+/*адаптер на другие устройства
+576px-320px*/
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .logo{
+        width: 250px;
+    }
+    .TextInTextOfer{
+        padding:20px;
+        font-size: 25px;
+    }
+    .TextOfer{
+        width: 300px;
+        height: 250px;
+    }
+    .MainWord{
+        font-size: 95px;
+    }
+}
