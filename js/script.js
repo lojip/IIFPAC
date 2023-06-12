@@ -1,4 +1,4 @@
-const container = document.querySelector(".but");
+const container = document.querySelector(".main");
 
 container.addEventListener("click", function (event) {
   const button = event.target.closest("button");
