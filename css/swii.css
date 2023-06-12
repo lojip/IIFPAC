@@ -162,6 +162,10 @@ ul{
     margin: 0 25px;
 }
 
+.button-link{
+    color: white;
+}
+
 .button-link-disabled {
     color: grey;
     text-decoration: none;
