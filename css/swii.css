@@ -164,6 +164,7 @@ ul{
 
 .button-link{
     color: white;
+    text-decoration: none;
 }
 
 .button-link-disabled {
