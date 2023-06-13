@@ -274,6 +274,9 @@ footer{
     .container{
         width: 90%;
     }
+    body{
+        font-size: 16px;
+    }
     .logo{
         width: 250px;
     }
@@ -282,10 +285,31 @@ footer{
         font-size: 25px;
     }
     .TextOfer{
-        width: 300px;
+        width: 80%;
         height: 250px;
     }
     .MainWord{
-        font-size: 95px;
+        font-size: 90px;
     }
 }
+
+@media screen and (max-width: 320px){
+    body{
+        font-size: 14px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .TextInTextOfer{
+        padding:15px;
+        font-size: 20px;
+    }
+    .TextOfer{
+        width: 80%;
+        height: 70%;
+    }
+    .MainWord{
+        font-size: 80px;
+    }
+}
+
