@@ -297,5 +297,8 @@ footer{
         font-size: 14px;
         height: 45px;
     }
+    .togle-1, .togle-2{
+        margin: 0 10px;
+    }
 }
 
