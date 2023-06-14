@@ -295,7 +295,7 @@ footer{
 
 @media screen and (max-width: 320px){
     body{
-        font-size: 14px;
+        font-size: 18px;
     }
     .logo{
         width: 250px;
@@ -309,7 +309,7 @@ footer{
         height: 70%;
     }
     .MainWord{
-        font-size: 80px;
+        font-size: 90px;
     }
 }
 
