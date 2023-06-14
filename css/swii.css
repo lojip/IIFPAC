@@ -261,6 +261,9 @@ footer{
     body{
         font-size: 16px;
     }
+    main{
+        background-image: url(/img/fone-adapt.jpg);
+    }
     header{
         font-size: 20px;
     }
@@ -270,6 +273,7 @@ footer{
     .btn-hover{
         width: 150px;
         font-size: 16px;
+        height: 50px;
     }
     .btn-hover-1{
         width: 100px;
@@ -287,6 +291,11 @@ footer{
     }
     main{
         margin: 0;
+    }
+    .btn-hover{
+        width: 125px;
+        font-size: 14px;
+        height: 45px;
     }
 }
 
