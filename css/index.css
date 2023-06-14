@@ -309,7 +309,10 @@ footer{
         height: 70%;
     }
     .MainWord{
-        font-size: 80px;
+        font-size: 75px;
+    }
+    .btn-hover{
+        width:150px;
     }
 }
 
