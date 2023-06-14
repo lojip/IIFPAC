@@ -283,6 +283,10 @@ footer{
     }
     header{
         font-size: 16px;
+        height: auto;
+    }
+    main{
+        margin: 0;
     }
 }
 
