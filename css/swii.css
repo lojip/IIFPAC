@@ -297,8 +297,11 @@ footer{
         font-size: 14px;
         height: 45px;
     }
+    .btn-hover-1{
+        width: 95px
+    }
     .togle-1, .togle-2{
-        margin: 0 10px;
+        margin: 0 5px;
     }
 }
 
