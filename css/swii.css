@@ -222,3 +222,70 @@ footer{
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .btn-hover{
+        font-size: 18px;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    body{
+        font-size: 18px;
+    }
+    .Wrapper, .Wrapper-div2{
+        width: auto;
+    }
+    .section{
+        padding:0 15px 15px 15px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    body{
+        font-size: 16px;
+    }
+    header{
+        font-size: 20px;
+    }
+    .div-Frontend{
+        display: block;
+    }
+    .btn-hover{
+        width: 150px;
+        font-size: 16px;
+    }
+    .btn-hover-1{
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+    body{
+        font-size: 14px;
+    }
+    header{
+        font-size: 18px;
+    }
+    .grid-container{
+        align-items: center;
+    }
+}
+
