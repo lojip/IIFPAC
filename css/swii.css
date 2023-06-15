@@ -303,5 +303,8 @@ footer{
     .togle-1, .togle-2{
         margin: 0 5px;
     }
+    .section{
+        padding: 0 10px 10px 10px;
+    }
 }
 
